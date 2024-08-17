@@ -39,7 +39,7 @@ const Signup = () => {
       if (success) {
         localStorage.setItem('token', jwtToken);
         localStorage.setItem('loggedInUser', name);
-        
+
 
         handleSuccess(message);
         setTimeout(() => {
@@ -99,7 +99,7 @@ const Signup = () => {
 
             />
         </div>
-        <button type='submit'>Signup</button>
+        <button type='submit'>Login</button>
         <span>
           Don't have an account?
           <Link to="/signup">Signup</Link>
