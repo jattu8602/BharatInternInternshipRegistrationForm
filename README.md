@@ -41,7 +41,7 @@ This project is part of my internship at Bharat Intern, where I developed a regi
 - Backend: 
   - Start the backend server:
     npm run dev
-  - The server will run on http://localhost:5000.
+  - The server will run on http://localhost:8080.
 
 - Frontend:
   - Start the React application:
